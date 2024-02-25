@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-body-tertiary{
+    background-color: #ADD8E6 !important;
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #252525 !important;
+    font-weight: 500;
+}
+.quoteSection{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+.quoteSection h3{
+    text-align: center;
+    color: #252525;
+    padding-bottom: 20px;
+}
+.navbar .btn{
+    background-color: #fff !important;
+    color: #252525;
+    border-color: #fff;
+    border-radius: 0;
+    font-weight: 500;
+    width: 150px;
+}
+.navbar .btn:hover{
+    background-color: #919280 !important;
+    border-color: #fff;
+    color: #fff;
+}
+/* home */
+.homeSection{
+    margin-top: 50px;
+}
+
+/* quote section  */
+.quoteSection{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ADD8E6;
+    
+}
+.innerQuote .btn{
+    background-color: #919280 !important;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    padding: 10px 0;
+    font-weight: 500;
+    width: 180px;
+}
+.innerQuote .btn:hover{
+    background-color: #fff !important;
+    border-color: #919280;
+    color: #919280;
+}
+.innerQuote{
+    height: auto;
+    width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.innerQuote input, .innerQuote select, .innerQuote textarea{
+    width: 100%;
+    border: #91928098 1px solid;
+    color: #919280;
+    padding: 10px  10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    outline: none;
+}
+/* quote section  */
+
+/* destination catelog */
+.desCatelog{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ADD8E6;
+    color: #252525;
+}
+
+.text-section{
+    text-align: center;
+}
+
+.catelogItems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.catelogItems ul li{
+    background-color: #fff;
+    color: #252525;
+    padding: 18px 0;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.firstItem{
+    margin-top: 2px !important;
+}
+/* destination catelog */
+
+/* about section  */
+.aboutUs{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #ADD8E6;
+    color: #252525;
+}
+
+.aboutUs .row{
+    align-items: center !important;
+}
+.aboutUs p{
+    font-size: 18px;
+}
+/* about section  */
+
+/* contact section  */
+.contactSection{
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ADD8E6;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.contactSection ul{
+    list-style: none;
+    background-color: #fff;
+    width: 50%;
+    height: 300px;
+    margin: 0;
+    padding: 20px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.contactSection ul li{
+    margin:  10px 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contactSection ul li a{
+    color: #000;
+}
+
+.contactSection ul li i{
+    padding: 20px;
+    background-color: #ADD8E6;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #96cee0;
+    padding: 20px 0;
+    color: #252525;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:767px) {
+    .contactSection ul{
+        padding: 10px;
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .contactSection ul li i{
+        padding: 10px;
+    }
+    .contactSection ul li{
+        margin:  10px 0;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
